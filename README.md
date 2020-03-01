@@ -5,11 +5,16 @@
 ## How To Start
 
 ```bash
+# Clone repo
+git clone https://github.com/pedrotrigomiranda/url-shortener.git
+
 # Install dependencies
+cd url-shortener
+
 npm install
 
 # Edit the config.env file with your MONGO_URI and BASE_URL
-# Use production.json in production env
+# Use package.json in production env
 
 # Run
 npm start
